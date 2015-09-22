@@ -1,0 +1,15 @@
+<extension xmlns="http://ns.adobe.com/air/extension/[AIR_VERSION]">
+    <id>com.trembit.extension.[PROJECT_NAME]</id>
+    <versionNumber>0.1.1</versionNumber>
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>lib[PROJECT_NAME].jar</nativeLibrary>
+                <initializer>com.trembit.[PROJECT_NAME_LOWER].api.[PROJECT_NAME]FREExtension</initializer>
+            </applicationDeployment>
+        </platform>
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms>
+</extension>
