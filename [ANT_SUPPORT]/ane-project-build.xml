@@ -161,6 +161,7 @@
                                to="${placeholder.android.lib.root.dir}/${android.lib.root.dir}.iml"/>
                 <rename-source from="${placeholder.flash.lib.root.dir}/${placeholder.flash.lib.root.dir}.iml"
                                to="${placeholder.flash.lib.root.dir}/${flash.lib.root.dir}.iml"/>
+                <mkdir dir="${placeholder.android.lib.root.dir}/gen"/>
             </parallel>
             <parallel>
                 <rename-source from="${placeholder.android.lib.root.dir}" to="${android.lib.root.dir}"/>
